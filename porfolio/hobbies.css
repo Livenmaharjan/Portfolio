@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Kavoon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Kavoon&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-image: url(images/bgbg.jpg);
+    /* background-color: black; */
+    /* border: 10px rgb(42, 45, 61) groove; */
+    width: 6cm;
+    height: fit-content;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: aliceblue;
+    border: 8px groove rgb(99, 4, 4);
+    border-radius: 4px;
+    font-size: 25px;
+}
+
+ul {
+    line-height: 15vh;
+}
+
+body {
+    background-image: url('images/ok.jpg');
+
+    background-color: rgb(37, 37, 37);
+
+}
+
+div {
+    display: flex;
+    margin: 10px;
+}
+
+/* mid image  */
+.main {
+    background-image: url('images/ok.jpg');
+    background-color: rgb(26, 25, 25);
+    width: 50vw;
+    height: 100vh;
+}
+
+.hi {
+    font-family: 'Kavoon', cursive;
+    font-size: 35px;
+    color: rgb(74, 77, 87);
+    margin-left: 55px;
+}
+
+.name {
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    color: rgb(154, 139, 79);
+    border: 4px rgb(144, 151, 76) ridge;
+    line-height: 55px;
+}
+
+i{
+    background-color: rgb(18, 24, 32);
+    color: rgb(230, 10, 10);
+    border: 3px red inset;
+    border-radius: 5px;
+    border-bottom: 2px;
+}
+
+p{
+    color: white;
+}
+
+.write{
+    border: 3px outset red;
+    border-radius: 3px;
+    width: 250px;
+    margin-left: 20px ;
+}
+
+.write p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    color: lightgoldenrodyellow;
+}
+
+.write:hover{
+background-color: rgb(46, 46, 87);
+color: rgb(71, 4, 4);
+transition-duration: 0.5s;
+}
+
+/*------------css samll ----------------------------device------------------------------------------------------------------*/
+@media only screen and (max-width:600px){
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+.navbar {
+    background-image: url(images/bgbg.jpg);
+    /* background-color: black; */
+    /* border: 10px rgb(42, 45, 61) groove; */
+    width: 3cm;
+    height: fit-content;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: aliceblue;
+    border: 8px groove rgb(99, 4, 4);
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+ul {
+    line-height: 15vh;
+}
+
+body {
+    background-image: url('images/ok.jpg');
+
+    background-color: rgb(37, 37, 37);
+
+}
+
+div {
+    display: flex;
+    margin: 10px;
+}
+
+/* mid image  */
+.main {
+    background-image: url('images/ok.jpg');
+    background-color: rgb(26, 25, 25);
+    width: 50vw;
+    height: 100vh;
+}
+
+.hi {
+    font-family: 'Kavoon', cursive;
+    font-size: 35px;
+    color: rgb(74, 77, 87);
+    margin-left: 55px;
+}
+
+.name {
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    color: rgb(154, 139, 79);
+    border: 4px rgb(144, 151, 76) ridge;
+    line-height: 55px;
+}
+
+i{
+    background-color: rgb(18, 24, 32);
+    color: rgb(230, 10, 10);
+    border: 3px red inset;
+    border-radius: 5px;
+    border-bottom: 2px;
+}
+
+p{
+    color: white;
+}
+
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-image: url(images/bgbg.jpg);
+    /* background-color: black; */
+    /* border: 10px rgb(42, 45, 61) groove; */
+    width: 6cm;
+    height: fit-content;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: aliceblue;
+    border: 8px groove rgb(99, 4, 4);
+    border-radius: 4px;
+    font-size: 25px;
+}
+
+ul {
+    line-height: 20vh;
+}
+
+body {
+    background-image: url('images/ok.jpg');
+
+    background-color: rgb(37, 37, 37);
+
+}
+
+.container {
+    display: flex;
+}
+
+/* mid image  */
+.main {
+    background-image: url('images/ok.jpg');
+    background-color: rgb(26, 25, 25);
+    width: 50vw;
+    height: 100vh;
+}
+
+i{
+    background-color: rgb(18, 24, 32);
+    color: rgb(230, 10, 10);
+    border: 3px red inset;
+    border-radius: 5px;
+    border-bottom: 2px;
+}
+
+.ok i{
+    font-size: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    transform: translate(-10%, -10%);
+    margin-left: 20cm;
+}
+
+.para{
+    width: 45vw;
+    border: 4px rgb(116, 26, 26) inset;
+    border-bottom: rgb(177, 17, 17) groove;
+    color: rgb(208, 241, 243);
+    background-image: url(bgbg.jpg);
+    font-family: 'Dancing Script', cursive;
+    margin-left: 28px;  
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 10vh;
+}
+/* edit for icons */
+.photo :hover{
+    border: 4px red outset;
+    color: rgb(10, 10, 10);
+    background-color: rgb(85, 78, 78);
+    transform:rotate(180deg);
+    transition-duration: 0.3s;
+}

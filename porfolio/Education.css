@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-image: url(images/bgbg.jpg);
+    border: 4px rgb(42, 45, 61) double;
+    width: 6cm;
+    height: auto;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: aliceblue;
+    border: 8px groove rgb(99, 4, 4);
+    border-radius: 4px;
+    font-size: 25px;
+}
+
+ul {
+    line-height: 15vh;
+}
+
+body {
+    background-image: url(images/bgg.jpg);
+}
+
+.navigation{
+    display: flex;
+}
+.edu{
+    width: max-content;
+    height: fit-content;
+    font-size: 25px;
+    color: aliceblue;
+    margin-left: 15px;
+    margin-top: 25px;
+    border:5px groove gray;
+    border-radius: 5px;
+    line-height: 30px;
+}
+.here{
+    display: flex;
+}
+.photos img{
+    width: auto;
+    height: 30vh;
+    margin-top: 20px;
+    margin-left: 12px;
+    border: 8px lightslategray groove;
+}
+
+i{
+    background-color: rgb(18, 24, 32);
+    color: rgb(230, 10, 10);
+    border: 3px red inset;
+    border-radius: 5px;
+    border-bottom: 2px;
+}
+
+/* bullet part */
+.edu ul{
+    list-style-type: circle;
+    margin: 5px;
+}
+
+
+/*------------------small device ------------------------------------------css----------------------------------------*/
+@media only screen and (max-width:600px){
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navbar {
+        background-image: url(images/bgbg.jpg);
+        border: 4px rgb(42, 45, 61) double;
+        width: 6cm;
+        height: auto;
+    }
+    
+    .navbar li a {
+        text-decoration: none;
+        color: aliceblue;
+        border: 8px groove rgb(99, 4, 4);
+        border-radius: 4px;
+        font-size: 15px;
+    }
+    
+    ul {
+        line-height: 15vh;
+    }
+    
+    body {
+        background-image: url(images/bgg.jpg);
+    }
+    
+    .navigation{
+        display: flex;
+    }
+    .edu{
+        /* width: 200px; */
+        width: auto;
+        height: auto;
+        font-size: 12px;
+        color: aliceblue;
+        margin-left: 12px;
+        margin-top: 15px;
+        border:2px groove gray;
+        border-radius: 5px;
+        line-height: 12px;
+    }
+    .here{
+        display: flex;
+    }
+    /*clgphoto ------css--*/
+    .photos img{
+        width: auto;
+        height: 8vh;
+        margin-top: 6px;
+        margin-left: 6px;
+        border: 8px lightslategray groove;
+    }
+    
+    i{
+        background-color: rgb(18, 24, 32);
+        color: rgb(230, 10, 10);
+        border: 3px red inset;
+        border-radius: 5px;
+        border-bottom: 2px;
+    }
+    
+    /* bullet part */
+    .edu ul{
+        list-style-type: circle;
+        margin: 5px;
+    }
+    
+
+}
